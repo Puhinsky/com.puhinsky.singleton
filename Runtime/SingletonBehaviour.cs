@@ -12,6 +12,10 @@ namespace Puhinsky.Singleton
             {
                 Instance = FindObjectOfType<T>();
             }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }
