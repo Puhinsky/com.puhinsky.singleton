@@ -1,0 +1,14 @@
+{
+    "name": "com.puhinsky.singleton.runtime",
+    "rootNamespace": "Puhinsky.Singleton",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
