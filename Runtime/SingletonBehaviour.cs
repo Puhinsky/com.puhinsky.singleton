@@ -10,7 +10,8 @@ namespace Puhinsky.Singleton
         {
             if (Instance == null)
             {
-                Instance = FindObjectOfType<T>();
+                Instance = this as T;
+                DontDestroyOnLoad(this);
             }
             else
             {
